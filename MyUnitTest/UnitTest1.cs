@@ -19,5 +19,12 @@ namespace MyUnitTest
             var c = new MyLibrary.Class1();
             Assert.AreEqual(2, c.Return2());
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            var c = new MyLibrary.Class1();
+            Assert.AreEqual(3, c.Return3());
+        }
     }
 }
