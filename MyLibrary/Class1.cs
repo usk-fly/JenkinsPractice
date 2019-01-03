@@ -15,7 +15,7 @@ namespace MyLibrary
 
         public int Return2()
         {
-            return 1;
+            return 2;
         }
 
         public int Return3()
